@@ -13,6 +13,8 @@
 		FD22F8EF238BA93900E6EC4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD22F8ED238BA93900E6EC4D /* Main.storyboard */; };
 		FD22F8F1238BA93A00E6EC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD22F8F0238BA93A00E6EC4D /* Assets.xcassets */; };
 		FD22F8F4238BA93A00E6EC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD22F8F2238BA93A00E6EC4D /* LaunchScreen.storyboard */; };
+		FD22F8FE238BB04900E6EC4D /* AppIcon-Dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD22F8FC238BB04900E6EC4D /* AppIcon-Dark@2x.png */; };
+		FD22F8FF238BB04900E6EC4D /* AppIcon-Dark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD22F8FD238BB04900E6EC4D /* AppIcon-Dark@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FD22F8F0238BA93A00E6EC4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD22F8F3238BA93A00E6EC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD22F8F5238BA93A00E6EC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD22F8FC238BB04900E6EC4D /* AppIcon-Dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-Dark@2x.png"; sourceTree = "<group>"; };
+		FD22F8FD238BB04900E6EC4D /* AppIcon-Dark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-Dark@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +65,20 @@
 				FD22F8EB238BA93900E6EC4D /* ViewController.swift */,
 				FD22F8ED238BA93900E6EC4D /* Main.storyboard */,
 				FD22F8F0238BA93A00E6EC4D /* Assets.xcassets */,
+				FD22F8FB238BAFFE00E6EC4D /* AppIcon-Dark */,
 				FD22F8F2238BA93A00E6EC4D /* LaunchScreen.storyboard */,
 				FD22F8F5238BA93A00E6EC4D /* Info.plist */,
 			);
 			path = AppIconCorrespondingToDarkMode;
+			sourceTree = "<group>";
+		};
+		FD22F8FB238BAFFE00E6EC4D /* AppIcon-Dark */ = {
+			isa = PBXGroup;
+			children = (
+				FD22F8FC238BB04900E6EC4D /* AppIcon-Dark@2x.png */,
+				FD22F8FD238BB04900E6EC4D /* AppIcon-Dark@3x.png */,
+			);
+			path = "AppIcon-Dark";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD22F8F4238BA93A00E6EC4D /* LaunchScreen.storyboard in Resources */,
+				FD22F8FF238BB04900E6EC4D /* AppIcon-Dark@3x.png in Resources */,
+				FD22F8FE238BB04900E6EC4D /* AppIcon-Dark@2x.png in Resources */,
 				FD22F8F1238BA93A00E6EC4D /* Assets.xcassets in Resources */,
 				FD22F8EF238BA93900E6EC4D /* Main.storyboard in Resources */,
 			);
