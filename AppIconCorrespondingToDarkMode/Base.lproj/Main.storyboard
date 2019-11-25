@@ -75,10 +75,10 @@
             </objects>
             <point key="canvasLocation" x="-1178" y="-169"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="A2d-4h-ieM">
             <objects>
-                <viewController id="FcQ-s3-asf" sceneMemberID="viewController">
+                <viewController id="FcQ-s3-asf" customClass="SettingsViewController" customModule="AppIconCorrespondingToDarkMode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SAh-Rv-Lep">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

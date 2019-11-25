@@ -15,6 +15,7 @@
 		FD22F8F4238BA93A00E6EC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD22F8F2238BA93A00E6EC4D /* LaunchScreen.storyboard */; };
 		FD22F8FE238BB04900E6EC4D /* AppIcon-Dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD22F8FC238BB04900E6EC4D /* AppIcon-Dark@2x.png */; };
 		FD22F8FF238BB04900E6EC4D /* AppIcon-Dark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD22F8FD238BB04900E6EC4D /* AppIcon-Dark@3x.png */; };
+		FD22F901238BDF1600E6EC4D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22F900238BDF1600E6EC4D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FD22F8F5238BA93A00E6EC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD22F8FC238BB04900E6EC4D /* AppIcon-Dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-Dark@2x.png"; sourceTree = "<group>"; };
 		FD22F8FD238BB04900E6EC4D /* AppIcon-Dark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-Dark@3x.png"; sourceTree = "<group>"; };
+		FD22F900238BDF1600E6EC4D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FD22F8E7238BA93900E6EC4D /* AppDelegate.swift */,
 				FD22F8E9238BA93900E6EC4D /* SceneDelegate.swift */,
 				FD22F8EB238BA93900E6EC4D /* ViewController.swift */,
+				FD22F900238BDF1600E6EC4D /* SettingsViewController.swift */,
 				FD22F8ED238BA93900E6EC4D /* Main.storyboard */,
 				FD22F8F0238BA93A00E6EC4D /* Assets.xcassets */,
 				FD22F8FB238BAFFE00E6EC4D /* AppIcon-Dark */,
@@ -157,6 +160,7 @@
 				FD22F8EC238BA93900E6EC4D /* ViewController.swift in Sources */,
 				FD22F8E8238BA93900E6EC4D /* AppDelegate.swift in Sources */,
 				FD22F8EA238BA93900E6EC4D /* SceneDelegate.swift in Sources */,
+				FD22F901238BDF1600E6EC4D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
